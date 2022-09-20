@@ -8,10 +8,10 @@ namespace PierresBakery.Models
     public int CurrentPrice { get; set; }
 
 
-  public Bread(int userBought, int currentPrice)
+  public Bread(int userBought)
   {
     AmountBought = userBought;
-    CurrentPrice = currentPrice;
+    CurrentPrice = 0;
   }
   }
 }

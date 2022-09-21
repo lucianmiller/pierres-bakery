@@ -28,5 +28,20 @@ namespace PierresBakery.Tests
       //Assert
       Assert.AreEqual(amount, result);
     }
+
+    [TestMethod]
+    public void GetCurrentPrice_ReturnsCurrentPrice_Int()
+    {
+      //Arrange
+      int total = 10;
+
+      //Act
+      Bread newBread = new Bread(10);
+      total = newBread.CurrentPrice;
+      int result = newBread.CurrentPrice;
+
+      //Assert
+      Assert.AreEqual(total, result);
+    }
   }
 }

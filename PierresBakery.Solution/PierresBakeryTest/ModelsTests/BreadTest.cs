@@ -37,11 +37,26 @@ namespace PierresBakery.Tests
 
       //Act
       Bread newBread = new Bread(10);
-      total = newBread.CurrentPrice;
+      newBread.CurrentPrice = total;
       int result = newBread.CurrentPrice;
 
       //Assert
       Assert.AreEqual(total, result);
+    }
+
+    [TestMethod]
+    public void BreadPrice_ReturnsPriceOfOneBread_Int()
+    {
+      //Arrange
+      int totalPrice = 5;
+
+      //Act
+      Bread newBread = new Bread(1);
+      newBread.BreadPrice();
+      int result = newBread.CurrentPrice;
+
+      //Assert
+      Assert.AreEqual(totalPrice, result);
     }
   }
 }

@@ -13,5 +13,10 @@ namespace PierresBakery.Models
     AmountBought = userBought;
     CurrentPrice = 0;
   }
+
+  public void BreadPrice()
+  {
+    this.CurrentPrice = this.AmountBought * 5;
+  }
   }
 }

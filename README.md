@@ -14,7 +14,8 @@ Pierre's Bakery offers loafs of bread and pastries for you to buy. They offer di
 * Click the two squares next to the link
 * Type `clone` in your console and insert the link with a space after clone
 * Navigate to file in your console
-* Type `dotnet run` to activate application
+* Type `dotnet build` into your console
+* Type `dotnet run` into your console to activate application
 * Follow on screen instructions
 
 # Specs

@@ -8,15 +8,27 @@ namespace PierresBakery.Models
     public int CurrentPrice { get; set; }
 
 
-  public Bread(int userBought)
-  {
-    AmountBought = userBought;
-    CurrentPrice = 0;
-  }
+    public Bread(int userBought)
+    {
+      AmountBought = userBought;
+      CurrentPrice = 0;
+    }
 
-  public void BreadPrice()
-  {
-    this.CurrentPrice = this.AmountBought * 5;
-  }
+    public void BreadPrice()
+    {
+      int i = this.AmountBought;
+      while (i > 0)
+      {
+        if (i % 3 == 0)
+        {
+          this.CurrentPrice += 0;
+        }
+        else
+        {
+          this.CurrentPrice += 5;
+        }
+        i--;
+      }
+    }
   }
 }

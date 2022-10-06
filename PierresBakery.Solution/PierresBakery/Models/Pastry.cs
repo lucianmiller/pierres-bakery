@@ -15,7 +15,19 @@ namespace PierresBakery.Models
 
     public void PastryPrice()
     {
-      this.CurrentPrice = this.AmountBought * 2;
+      int i = this.AmountBought;
+      while (i > 0)
+      {
+        if (i % 3 == 0)
+        {
+          this.CurrentPrice += 1;
+        }
+        else
+        {
+          this.CurrentPrice += 2;
+        }
+      i--;
+      }
     }
   }
 }

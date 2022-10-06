@@ -1,6 +1,6 @@
 # Pierre's Bakery
 
-#### C# Independent Project for Epicodus, 9/27/2022
+#### C# Independent Project for Epicodus, 10/6/2022
 
 #### By Lucian Miller
 

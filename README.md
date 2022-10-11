@@ -1,6 +1,6 @@
 # Pierre's Bakery
 
-#### C# Independent Project for Epicodus, 10/6/2022
+#### C# Independent Project for Epicodus, 10/11/2022
 
 #### By Lucian Miller
 
@@ -22,10 +22,14 @@ Pierre's Bakery offers loafs of bread and pastries for you to buy. They offer di
 
 |Description|Input|Output
 |:--:|:--:|:--:|
+|One loaf of bread costs 5 dollars|Bought = 1|Price = $5|
+|Buy two loafs of bread, get the 3rd free|Bought = 3|Price = $10|
+|One pastry costs 2 dollars|Bought = 1|Price = $2|
+|Every 3rd pastry is 5 dollars|Bought = 3|Price = $5|
 
 ## Known Bugs
 
-Application does not run due to application not having a `Main` method
+No known bugs as of this version
 
 ## Support and contact details
 

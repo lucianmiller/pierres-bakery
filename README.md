@@ -10,14 +10,16 @@ Pierre's Bakery offers loafs of bread and pastries for you to buy. They offer di
 
 ## Setup/Installation Requirements
 
-* Click on the green code drop down menu
-* Click the two squares next to the link
-* Type `clone` in your console and insert the link with a space after clone
-* Navigate to file in your console
-* Type `dotnet restore` into your console
-* Type `dotnet build` into your console
-* Type `dotnet run` into your console to activate application
-* Follow on screen instructions
+1. Click on the green code drop down menu
+2. Click the two squares next to the link
+3. Type `clone` in your console and insert the link with a space after clone
+4. Navigate to file in your console
+5. Navigate to `PierrsBakery.Solution/PierresBakery` file and type `dotnet restore` into your console
+6. Navigate to `PierrsBakery.Solution/PierresBakeryTests` file and type `dotnet restore` into your console
+7. Stay in `PierrsBakery.Solution/PierresBakeryTests` file and type `dotnet build` into your console
+8. For testing, navigate to `PierrsBakery.Solution/PierresBakeryTests` file and type `dotnet test` into your console
+9. For the functional application, navigate to `PierrsBakery.Solution/PierresBakery` and type `dotnet run` into your console
+10. Follow on screen instructions
 
 # Specs
 

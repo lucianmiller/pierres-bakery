@@ -16,11 +16,11 @@ Pierre's Bakery offers loafs of bread and pastries for you to buy. They offer di
 
 
 ### Testing
-1. Navigate to `PierresBakery.Solution/PierresBakeryTests` file and type `dotnet restore` into your console
-2. For testing, navigate to `PierresBakery.Solution/PierresBakeryTests` file and type `dotnet test` into your console
+1. Navigate to `PierresBakery.Solution/PierresBakeryTests` and type `dotnet restore` into your console
+2. For testing, navigate to `PierresBakery.Solution/PierresBakeryTests` and type `dotnet test` into your console
 
 ### Functional Application
-1. Navigate to `PierresBakery.Solution/PierresBakery` file and type `dotnet restore` into your console
+1. Navigate to `PierresBakery.Solution/PierresBakery` and type `dotnet restore` into your console
 2. For the functional application, navigate to `PierresBakery.Solution/PierresBakery` and type `dotnet run` into your console
 3. Follow on screen instructions
 
